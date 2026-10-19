@@ -1,0 +1,13 @@
+{
+  "mod_id": "touhou_little_maid_tweaks",
+  "display_name": "Graydient's Touhou Little Maid Tweaks",
+  "artifact_prefix": "graydients-touhou-little-maid-tweaks",
+  "version": "1.0.0",
+  "java_release": 21,
+  "minecraft": "1.21.1",
+  "neoforge_minimum": "21.1.248",
+  "tlm_version": "1.5.3-neoforge+mc1.21.1",
+  "package": "io.github.graydients.tlmtweaks",
+  "license": "GPL-3.0-or-later",
+  "cloth_config_minimum": "15.0.140"
+}
