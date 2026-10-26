@@ -18,6 +18,17 @@ I made this mod for a small private server where players wanted some quality-of-
 
 ---
 
+## Changes in 1.1.0-a3
+
+Compared with 1.0.0:
+
+- **Stock limits:** Set chest → maid whitelist limits from 1–128 items.
+- **Filter controls:** Scroll to adjust, shift-click to copy, or right-click while holding an item to add one virtual item. Counts of one are hidden and tooltips are shorter.
+- **Multiple IOs:** Imports run first; exports keep the import reserve and send only excess.
+- **Chest searches:** Reuse lookups for shared targets while preserving separate chests and double-chest bindings.
+
+---
+
 ## Features at a glance
 
 | Feature | What it does |
