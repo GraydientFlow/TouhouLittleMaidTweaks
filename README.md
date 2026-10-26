@@ -14,7 +14,7 @@ An independent addon for [**Touhou Little Maid**](https://github.com/TartaricAci
 
 I made this mod for a small private server where players wanted some quality-of-life changes. It tries to preserve Touhou Little Maid's original maid behavior while making small QoL and performance adjustments. The added features do not affect game balance.
 
-**Project status:** `main` is stable 1.0.0; `dev` contains the 1.1.0 alpha. This source is 1.1.0-a3, with Wireless I/O stock limits and coordinated transfers. Client gameplay acceptance is pending.
+**Project status:** 1.1.0-a3 has been tested on a private server. All automated tests have passed. It will be released if no further issues are found.
 
 ---
 
