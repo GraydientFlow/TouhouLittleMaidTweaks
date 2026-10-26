@@ -85,6 +85,12 @@ and shutdown cleanup prevent stale transfers from changing another connection.
 
 ## Agent workflow and checks
 
+`main` tracks stable releases; `dev` integrates changes for the next release.
+Start feature work from `dev` and merge accepted changes back there. Keep source
+release tags immutable. Build tools, tests and technical documents have separate
+private history in the local parent workspace; they are not part of this tree.
+Stable promotion, remote pushes and deployment need the applicable owner request.
+
 Use the Java and dependency targets in `project.json` and the loader descriptor
 when preparing a development environment. This repository supplies production
 source and resources; build scripts and test suites are not included.
