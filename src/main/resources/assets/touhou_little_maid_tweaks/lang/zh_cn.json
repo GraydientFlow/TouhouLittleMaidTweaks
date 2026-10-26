@@ -288,5 +288,6 @@
   "touhou_little_maid_tweaks.work_config.method.1": "按种类计数",
   "touhou_little_maid_tweaks.work_config.method.tip": "体积计算包括身高；占地面积只计算长宽。\n按种类计数则分别限制每类成年数量。\n适用于女仆的普通搜索区域。",
   "touhou_little_maid_tweaks.work_config.count": "默认每类成年上限",
-  "touhou_little_maid_tweaks.work_config.count.tip": "仅按种类计数时使用，幼年不计数。"
+  "touhou_little_maid_tweaks.work_config.count.tip": "仅按种类计数时使用，幼年不计数。",
+  "gui.touhou_little_maid_tweaks.storage.limit": "携带上限: %s"
 }

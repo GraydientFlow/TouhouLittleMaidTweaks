@@ -288,5 +288,6 @@
   "touhou_little_maid_tweaks.work_config.method.1": "Count per type",
   "touhou_little_maid_tweaks.work_config.method.tip": "Volume includes height; footprint uses ground area.\nCount limits adults separately for each type.\nApplies to unfenced maid searches.",
   "touhou_little_maid_tweaks.work_config.count": "Default adults per type",
-  "touhou_little_maid_tweaks.work_config.count.tip": "Used by count mode only. Babies do not count."
+  "touhou_little_maid_tweaks.work_config.count.tip": "Used by count mode only. Babies do not count.",
+  "gui.touhou_little_maid_tweaks.storage.limit": "Maximum carried: %s"
 }

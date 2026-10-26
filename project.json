@@ -2,7 +2,7 @@
   "mod_id": "touhou_little_maid_tweaks",
   "display_name": "Graydient's Touhou Little Maid Tweaks",
   "artifact_prefix": "graydients-touhou-little-maid-tweaks",
-  "version": "1.0.0",
+  "version": "1.1.0-a3",
   "java_release": 21,
   "minecraft": "1.21.1",
   "neoforge_minimum": "21.1.248",

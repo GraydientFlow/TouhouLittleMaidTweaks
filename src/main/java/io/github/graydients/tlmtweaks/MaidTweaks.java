@@ -76,7 +76,7 @@ public final class MaidTweaks {
     }
 
     private static void register(RegisterPayloadHandlersEvent event) {
-        var registrar = event.registrar("15");
+        var registrar = event.registrar("16");
         registrar.playToServer(ScheduleProtocol.Set.TYPE, ScheduleProtocol.Set.CODEC, ScheduleProtocol::handle);
         registrar.playToClient(ScheduleProtocol.State.TYPE, ScheduleProtocol.State.CODEC, (data, context) -> {
             if (FMLEnvironment.dist == Dist.CLIENT) context.enqueueWork(() -> ClothScheduleConfig.receive(data));

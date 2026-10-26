@@ -11,7 +11,8 @@
     "GateConfigScreenMixin",
     "CustomReloadMixin",
     "MaidPermissionScreenMixin",
-    "MaidPermissionSlotMixin"
+    "MaidPermissionSlotMixin",
+    "WirelessIOFilterScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
@@ -49,6 +50,8 @@
     "MaidPermissionAttackMixin",
     "MaidPermissionInventoryMixin",
     "MaidPermissionCarryMixin",
-    "WirelessIOFilterMixin"
+    "WirelessIOFilterMixin",
+    "MaidWirelessIOContextMixin",
+    "WirelessIOTransferMixin"
   ]
 }

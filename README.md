@@ -6,7 +6,7 @@ An independent addon for [**Touhou Little Maid**](https://github.com/TartaricAci
 
 | Version | Minecraft | Loader | License |
 |---|---|---|---|
-| `1.0.0` | `1.21.1` | NeoForge | [GPL-3.0-or-later](LICENSE) |
+| `1.1.0-a3` | `1.21.1` | NeoForge | [GPL-3.0-or-later](LICENSE) |
 
 ---
 
@@ -14,7 +14,7 @@ An independent addon for [**Touhou Little Maid**](https://github.com/TartaricAci
 
 I made this mod for a small private server where players wanted some quality-of-life changes. It tries to preserve Touhou Little Maid's original maid behavior while making small QoL and performance adjustments. The added features do not affect game balance.
 
-**Project status:** Automated component checks and my own testing have passed. The mod is running on my private server.
+**Project status:** Local 1.1.0-a3 alpha for Wireless I/O stock limits and coordinated transfers. Client gameplay acceptance is pending.
 
 ---
 
@@ -154,7 +154,7 @@ S S S    S = any wooden slab
 - **Custom shift schedules:** Edit **HH:MM** start times under **Maid Schedules** (Day defaults: `06:00` work, `18:00` leisure, `22:00` sleep; Night defaults: `18:00` work, `14:00` leisure, `06:00` sleep).
 - **Two-player board games:** Right-click an empty Chess, Xiangqi, or Gomoku board with an empty hand to play against another player. Click the reset area to start over.
 - **Automatic tool replacement:** Swaps in an identical spare tool from the maid's backpack when her equipped tool breaks, keeping its enchantments and durability.
-- **Virtual Storage I/O filters:** Click a filter slot with an item to save a virtual reference without giving up the real item. Real items in native TLM filter slots are refunded once when reopened.
+- **Wireless I/O stock limits:** Left-click a filter with a stack, or shift-click an inventory item, to copy its type and count without consuming it. Right-click adds one virtual item at a time. For chest → maid whitelist transfers, scroll over the reference to set a carried limit of **1–128**. Existing filters start at **1**. Multiple equipped IOs import first; exports keep the highest import reserve for each item and send only excess. Export references stay at **1**. Blacklist imports retain native type filtering. Legacy physical filter items are refunded once.
 - **Dropped-item pickup delay:** Maids wait **15 seconds** by default before chasing or magnet-pulling newly dropped items outside immediate reach, while still picking up items right at their feet.
 
 ---
