@@ -20,17 +20,17 @@ I made this mod for a small private server where players wanted some quality-of-
 
 ## Changes
 
-1.1.0-a3 changes since 1.0.0:
+1.1.0 changes to Storage I/O (Gap)
 
 ### New features
 
-- **Stock limits:** Set Gap chest → maid whitelist limits from 1–128 items.
+- **Stock limits:** Set Storage I/O chest → maid whitelist limits from 1–128 items.
 - **Updated filter controls:** Scroll to adjust, shift-click to copy, or right-click while holding an item to add one virtual item. Counts of one are hidden and tooltips are shorter.
-- **Multiple Gaps:** Imports run first; exports keep the import reserve and send only excess.
+- **Multiple Storage I/O items:** Imports run first; exports keep the import reserve and send only excess.
 
 ### Improvements
 
-- **Improved search with multiple Gaps:** Share chest lookups for the same target while preserving separate chests and double-chest bindings.
+- **Improved search with multiple Storage I/O items:** Share chest lookups for the same target while preserving separate chests and double-chest bindings.
 
 ---
 
@@ -47,7 +47,7 @@ I made this mod for a small private server where players wanted some quality-of-
 | **Custom shift schedules** | Change when day-shift and night-shift maids work, relax, and sleep. |
 | **Two-player board games** | Play Chess, Xiangqi, or Gomoku against another player. |
 | **Automatic tool replacement** | Maids swap in a matching spare from their backpack when their tool breaks. |
-| **Gap virtual filters** | Set Gap filters without giving up a real copy of a tool. |
+| **Storage I/O virtual filters** | Set Storage I/O filters without giving up a real copy of a tool. |
 | **Dropped-item pickup delay** | Maids wait a bit before running after items you just dropped. |
 
 ---
@@ -170,7 +170,7 @@ S S S    S = any wooden slab
 - **Custom shift schedules:** Edit **HH:MM** start times under **Maid Schedules** (Day defaults: `06:00` work, `18:00` leisure, `22:00` sleep; Night defaults: `18:00` work, `14:00` leisure, `06:00` sleep).
 - **Two-player board games:** Right-click an empty Chess, Xiangqi, or Gomoku board with an empty hand to play against another player. Click the reset area to start over.
 - **Automatic tool replacement:** Swaps in an identical spare tool from the maid's backpack when her equipped tool breaks, keeping its enchantments and durability.
-- **Gap stock limits:** Left-click a filter with a stack, or shift-click an inventory item, to copy its type and count without consuming it. Right-click adds one virtual item at a time. For chest → maid whitelist transfers, scroll over the reference to set a carried limit of **1–128**. Existing filters start at **1**. Multiple equipped Gaps import first; exports keep the highest import reserve for each item and send only excess. Export references stay at **1**. Blacklist imports retain native type filtering. Legacy physical filter items are refunded once.
+- **Storage I/O stock limits:** Left-click a filter with a stack, or shift-click an inventory item, to copy its type and count without consuming it. Right-click adds one virtual item at a time. For chest → maid whitelist transfers, scroll over the reference to set a carried limit of **1–128**. Existing filters start at **1**. Multiple equipped Storage I/O items import first; exports keep the highest import reserve for each item and send only excess. Export references stay at **1**. Blacklist imports retain native type filtering. Legacy physical filter items are refunded once.
 - **Dropped-item pickup delay:** Maids wait **15 seconds** by default before chasing or magnet-pulling newly dropped items outside immediate reach, while still picking up items right at their feet.
 
 ---
